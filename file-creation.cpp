@@ -3,7 +3,11 @@
 using namespace std;
 
 int main() {
+
+    //ofstream is a class belonged to fstream header file
     ofstream file("ofstream.txt");
+
+    //When you open a file using ofstream, if the file doesn’t exist, it will be created automatically.
     if (!file) {
         cerr << "Error opening the file" << endl;
         return 1;
@@ -11,7 +15,8 @@ int main() {
 
     file << "This is my first file operation in C++" << endl;
 
-    // Now I am writing something more in the file
+    // Now I am writing something more in the file using the insertion operator (<<)
+    
     file << "Steps to Create a File in C++\n"
          << "The following are the steps involved to create the files.\n"
          << "Include the header file: You need <fstream> which provides classes for file handling.\n"
@@ -22,5 +27,6 @@ int main() {
          << "Close the file: Always close the file using .close() to free resources.\n";
 
     file.close(); // good practice
+   
     return 0;
 }
