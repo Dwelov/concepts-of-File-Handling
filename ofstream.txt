@@ -7,3 +7,4 @@ When you open a file using ofstream, if the file doesn’t exist, it will be cre
 Open the file: You can open a file either by passing the filename in the constructor or using .open() method.
 Write to the file: Use the insertion operator (<<) to write content.
 Close the file: Always close the file using .close() to free resources.
+
