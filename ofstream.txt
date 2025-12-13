@@ -8,3 +8,5 @@ Open the file: You can open a file either by passing the filename in the constru
 Write to the file: Use the insertion operator (<<) to write content.
 Close the file: Always close the file using .close() to free resources.
 
+This is a new line added to the file.
+This is a new line added to the file.

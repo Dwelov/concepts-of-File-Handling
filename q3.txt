@@ -1,0 +1,6 @@
+--------------------Student Data--------------------
+Name: Siraj Ahmed
+Age: 19
+City: Daska
+--------------------
+ So ok this is the new data i am going to add in the file

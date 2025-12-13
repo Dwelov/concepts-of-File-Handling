@@ -1,5 +1,24 @@
-Introduction
 
-File Handling
+---
 
+## 📝 5 Practice Programs for File Handling
 
+- **[Program 1: Create & Write Records](guide://action?prefill=Tell%20me%20more%20about%3A%20Program%201%3A%20Create%20%26%20Write%20Records)**  
+  Write a program that creates a new file called `students.txt` and stores 5 student records (ID, Name, Marks). Use `ofstream` with `ios::trunc` so the file is overwritten each time.  
+  *Key concept:* File creation and writing.
+
+- **[Program 2: Append Records](guide://action?prefill=Tell%20me%20more%20about%3A%20Program%202%3A%20Append%20Records)**  
+  Extend the file by adding new student records without deleting the old ones. Use `ofstream` with `ios::app`.  
+  *Key concept:* Appending data safely.
+
+- **[Program 3: Read & Display Records](guide://action?prefill=Tell%20me%20more%20about%3A%20Program%203%3A%20Read%20%26%20Display%20Records)**  
+  Read the file line by line using `ifstream` and `getline()`. Display all records neatly.  
+  *Key concept:* Reading files and handling line input.
+
+- **[Program 4: Search by ID](guide://action?prefill=Tell%20me%20more%20about%3A%20Program%204%3A%20Search%20by%20ID)**  
+  Ask the user for an ID, then scan the file line by line. Use `find()` to check if the ID exists in a record. Print the record if found.  
+  *Key concept:* Searching text inside files.
+
+- **[Program 5: Update & Delete Records](guide://action?prefill=Tell%20me%20more%20about%3A%20Program%205%3A%20Update%20%26%20Delete%20Records)**  
+  Read all records into a vector, modify or skip the target record, then rewrite the file with `ofstream` using `ios::trunc`.  
+  *Key concept:* Updating and deleting by rewritiing
