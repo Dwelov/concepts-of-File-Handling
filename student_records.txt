@@ -76,5 +76,4 @@ ID: 174, Name: Hira Rauf, Math: 76, Physics: 74, Chemistry: 78
 ID: 175, Name: Noman Aziz, Math: 85, Physics: 82, Chemistry: 87
 ID: 176, Name: Sadaf Malik, Math: 69, Physics: 68, Chemistry: 72
 ID: 177, Name: Shahbaz Ali, Math: 92, Physics: 94, Chemistry: 96Students Management System
-Students Management System
-Students Management System
+

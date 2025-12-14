@@ -43,4 +43,5 @@ int main()
         cout << "Unable to open file" << endl;
         return -1;
     }
+    return 0;
 }
